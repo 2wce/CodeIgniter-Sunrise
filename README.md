@@ -1,6 +1,3 @@
-# CodeIgniter Sunrise
-
-CodeIgniter Sunrise is inspired by [CodeIgniter Bootstrap](https://github.com/sjlu/CodeIgniter-Bootstrap) and [Sunrise](https://github.com/sjlu/sunrise/). It has the intention of providing you a bootstrapped framework for you to work in without any setup. It includes a LESS compiler and JS concatenator run by [Grunt](Gruntfile.js) and serveral libraries installed through [Bower](bower.json).
 
 ## Install
 
@@ -8,7 +5,7 @@ CodeIgniter Sunrise is inspired by [CodeIgniter Bootstrap](https://github.com/sj
 
         wget https://github.com/sjlu/CodeIgniter-Sunrise/archive/master.zip -O sunrise.zip
         unzip sunrise.zip
-        mv CodeIgniter-Sunrise-master sunrise
+        mv ecommerce-master ecommerce
    
 * Install the following tools.
 
@@ -19,21 +16,12 @@ CodeIgniter Sunrise is inspired by [CodeIgniter Bootstrap](https://github.com/sj
 
         ./build.sh
 
-You can also use this script to instantiate a new project.
-
-    curl https://raw.github.com/sjlu/CodeIgniter-Sunrise/master/install.sh | bash -s sunrise
-
 ## Usage
 
 To compile LESS and JS, all you need to do is run Grunt in the root directory.
 
     grunt
 
-## Heroku
-
-You can deploy this using Heroku by using the custom [buildpack](https://github.com/sjlu/heroku-buildpack-sunrise).
-
-    heroku create --buildpack https://github.com/sjlu/heroku-buildpack-sunrise.git
 
 ## License
 
